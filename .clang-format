@@ -1,0 +1,32 @@
+# requires clang-format 22 or above
+
+Language: Cpp
+Standard: c++20
+
+ColumnLimit: 180
+BasedOnStyle: Microsoft
+IndentWidth: 4
+UseTab: Never
+NamespaceIndentation: All
+AccessModifierOffset: -4
+
+PointerAlignment: Left
+AlignArrayOfStructures: Left
+AlignConsecutiveBitFields: AcrossEmptyLines
+AlignAfterOpenBracket: AlwaysBreak
+
+BinPackArguments: false
+AllowAllArgumentsOnNextLine: false
+BinPackParameters: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+BreakTemplateDeclarations: Yes
+BreakBeforeBraces: Allman
+BreakConstructorInitializers: BeforeComma
+
+BreakAfterOpenBracketBracedList: true
+BreakAfterOpenBracketFunction: true
+BreakAfterOpenBracketLoop: true
+BreakBeforeCloseBracketBracedList: true
+BreakBeforeCloseBracketFunction: true
+BreakBeforeCloseBracketLoop: true

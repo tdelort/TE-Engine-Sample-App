@@ -1,0 +1,3 @@
+[submodule "libraries/TE-Engine"]
+	path = libraries/TE-Engine
+	url = https://github.com/tdelort/TE-Engine.git
