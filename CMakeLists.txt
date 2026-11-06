@@ -30,6 +30,7 @@ target_link_options(TESampleApp PRIVATE
   $<$<CONFIG:Debug>:-DEBUG>
 )
 
+
 set(TE_ENGINE_PROJECT_PATH libraries/TE-Engine)
 add_subdirectory(${TE_ENGINE_PROJECT_PATH})
 
